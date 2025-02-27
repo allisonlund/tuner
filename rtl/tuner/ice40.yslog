@@ -1,0 +1,97 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.48 (git sha1 aaa5347494801e9e3870b31387da59da24233f76, clang++ 16.0.0 -fPIC -O3)
+
+-- Parsing `top.sv' using frontend ` -sv' --
+
+1. Executing Verilog-2005 frontend: top.sv
+Parsing SystemVerilog input from `top.sv' to AST representation.
+Storing AST representation for module `$abstract\top'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/part1/tuner/tuner.sv' using frontend ` -sv' --
+
+2. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/part1/tuner/tuner.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/part1/tuner/tuner.sv' to AST representation.
+Storing AST representation for module `$abstract\tuner'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/part1/tuner/SB_PLL40_PAD.sv' using frontend ` -sv' --
+
+3. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/part1/tuner/SB_PLL40_PAD.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/part1/tuner/SB_PLL40_PAD.sv' to AST representation.
+Storing AST representation for module `$abstract\SB_PLL40_PAD'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/nonsynth_clock_gen.sv' using frontend ` -sv' --
+
+4. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/nonsynth_clock_gen.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/nonsynth_clock_gen.sv' to AST representation.
+Storing AST representation for module `$abstract\nonsynth_clock_gen'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/nonsynth_reset_gen.sv' using frontend ` -sv' --
+
+5. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/nonsynth_reset_gen.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/nonsynth_reset_gen.sv' to AST representation.
+Storing AST representation for module `$abstract\nonsynth_reset_gen'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/sipo.sv' using frontend ` -sv' --
+
+6. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/sipo.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/sipo.sv' to AST representation.
+Storing AST representation for module `$abstract\sipo'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/piso.sv' using frontend ` -sv' --
+
+7. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/piso.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/piso.sv' to AST representation.
+Storing AST representation for module `$abstract\piso'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/dff.sv' using frontend ` -sv' --
+
+8. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/dff.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/dff.sv' to AST representation.
+Storing AST representation for module `$abstract\dff'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/inv.sv' using frontend ` -sv' --
+
+9. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/inv.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/inv.sv' to AST representation.
+Storing AST representation for module `$abstract\inv'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/axis_i2s2_synth.v' using frontend ` -vlog2k' --
+
+10. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/axis_i2s2_synth.v
+Parsing Verilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/provided/axis_i2s2_synth.v' to AST representation.
+Storing AST representation for module `$abstract\axis_i2s2'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/imports/counter.sv' using frontend ` -sv' --
+
+11. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/imports/counter.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/imports/counter.sv' to AST representation.
+Storing AST representation for module `$abstract\counter'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/imports/hex2ssd.sv' using frontend ` -sv' --
+
+12. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/imports/hex2ssd.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/imports/hex2ssd.sv' to AST representation.
+Storing AST representation for module `$abstract\hex2ssd'.
+Successfully finished Verilog frontend.
+
+-- Parsing `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/imports/ram_1r1w_sync.sv' using frontend ` -sv' --
+
+13. Executing Verilog-2005 frontend: /Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/imports/ram_1r1w_sync.sv
+Parsing SystemVerilog input from `/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/imports/ram_1r1w_sync.sv' to AST representation.
+/Users/allisonlund/CSE293/lab-8-summative-assessment-aklund51/imports/ram_1r1w_sync.sv:7: ERROR: syntax error, unexpected TOK_ID, expecting ',' or '=' or ')'
